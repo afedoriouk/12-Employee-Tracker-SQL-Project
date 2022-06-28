@@ -72,20 +72,19 @@ Schema Tables:</br>
 
 <img width="1254" alt="12 Employee Tracker Screenshot-2" src="https://user-images.githubusercontent.com/98120553/176239055-599cda42-6ff0-4bc8-a6b2-55a10f72b92a.png">
 * `department`</br>
-  * `id`: `INT PRIMARY KEY`</br>
-  * `name`: `VARCHAR(30)` to hold department name</br>
+  * `id`</br>
+  * `name`</br>
 * `role`</br>
-  * `id`: `INT PRIMARY KEY`</br>
-  * `title`: `VARCHAR(30)` to hold role title</br>
-  * `salary`: `DECIMAL` to hold role salary</br>
-  * `department_id`: `INT` to hold reference to department role belongs to</br>
+  * `id`</br>
+  * `title`</br>
+  * `salary`</br>
+  * `department_id`</br>
 * `employee`</br>
-  * `id`: `INT PRIMARY KEY`</br>
-  * `first_name`: `VARCHAR(30)` to hold employee first name</br>
-  * `last_name`: `VARCHAR(30)` to hold employee last name</br>
-  * `role_id`: `INT` to hold reference to employee role</br>
-  * `manager_id`: `INT` to hold reference to another employee that is the manager of the current employee (`null` if the employee has no manager)
-
+  * `id`</br>
+  * `first_name`</br>
+  * `last_name`</br>
+  * `role_id`</br>
+  * `manager_id`</br>
 
 ## Source
 Google Search</br>
