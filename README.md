@@ -71,20 +71,20 @@ Schema Tables:</br>
 
 
 <img width="1254" alt="12 Employee Tracker Screenshot-2" src="https://user-images.githubusercontent.com/98120553/176239055-599cda42-6ff0-4bc8-a6b2-55a10f72b92a.png">
-* `department`</br>
-  * `id`</br>
-  * `name`</br>
-* `role`</br>
-  * `id`</br>
-  * `title`</br>
-  * `salary`</br>
-  * `department_id`</br>
-* `employee`</br>
-  * `id`</br>
-  * `first_name`</br>
-  * `last_name`</br>
-  * `role_id`</br>
-  * `manager_id`</br>
+`department`</br>
+`id`</br>
+`name`</br>
+`role`</br>
+`id`</br>
+`title`</br>
+`salary`</br>
+`department_id`</br>
+`employee`</br>
+`id`</br>
+`first_name`</br>
+`last_name`</br>
+`role_id`</br>
+`manager_id`</br>
 
 ## Source
 Google Search</br>
