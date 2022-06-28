@@ -1,5 +1,7 @@
-DROP DATABASE IF EXISTS employeesDB;
+-- delete existing DB
 
+DROP DATABASE IF EXISTS employeesDB;
+-- create new DB
 CREATE DATABASE employeesDB;
 
 USE employeesDB;
@@ -10,6 +12,7 @@ CREATE TABLE department (
   PRIMARY KEY (id)
 );
 
+-- employee_db  role
 CREATE TABLE role (
   id INT UNSIGNED AUTO_INCREMENT,
   title VARCHAR(30) NULL,
@@ -19,6 +22,7 @@ CREATE TABLE role (
   
 );
 
+-- employee_db  employee
 CREATE TABLE employee (
   id INT NOT NULL AUTO_INCREMENT ,
   first_name VARCHAR(30) NULL,
@@ -30,3 +34,7 @@ CREATE TABLE employee (
   PRIMARY KEY (id)
 
 );
+
+-- SELECT * FROM department;
+-- SELECT * FROM role;
+-- SELECT * FROM employee;

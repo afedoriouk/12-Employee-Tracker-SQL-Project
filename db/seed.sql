@@ -1,11 +1,7 @@
 use employeesDB;
 
 INSERT INTO department (name)
-VALUES 
-('Sales'),
-('Engineering'),
-('Finance'), 
-('Legal');
+VALUES ('Sales'),('Engineering'),('Finance'), ('Legal');
 
 INSERT INTO role (title, salary, department_id)
 VALUES 
@@ -28,3 +24,7 @@ VALUES
 ('Peter', 'Begen', 6, 5),
 ('Sarah', 'Pauliner', 7, NULL),
 ('Tom', 'Roberts', 8, 7);
+
+-- SELECT * FROM department;
+-- SELECT * FROM role;
+-- SELECT * FROM employee;
