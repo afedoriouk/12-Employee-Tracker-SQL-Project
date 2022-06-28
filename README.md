@@ -1,14 +1,18 @@
 # 12 Employee Tracker SQL Project
 
-This Employee Tracker SQL project has many practical implementations in the workplace. Companies frequently have to create and update interfaces that allow managers and employees to easily view and interact with information stored in databases. **CMS Content Management Systems (CMS)**. This application is controlled from the command-line. Users can manage a company's employee database, using Node.js, Inquirer, and MySQL.
+This Employee Tracker SQL project has many practical implementations in the workplace. Companies frequently have to create and update interfaces that allow managers and employees to easily view and interact with the information stored in the databases. **CMS Content Management Systems**. This application is controlled from the command-line. Users can manage company's employee database, using Node.js, Inquirer, and MySQL.
 
 ## User Story
+
+<img width="1682" alt="12 Employee Tracker Screenshot-1" src="https://user-images.githubusercontent.com/98120553/176238993-418f6c51-2e57-41b7-8497-967d22df3cc0.png">
+
 
 ```md
 Our company is looking to build a database of emoployees that includes their contact information.
 I would like to manage the information related to the departments, roles, and employees.
 
 ```
+<img width="847" alt="12-Employee-Tracker-Screenshot-5" src="https://user-images.githubusercontent.com/98120553/176239129-b5031638-eac6-4e08-8eea-f9df20214701.png">
 
 ## NPM RUN
 
@@ -25,7 +29,7 @@ Add an employee
 ```
 
 ## Demonstration
-
+<img width="1254" alt="12 Employee Tracker Screenshot-2" src="https://user-images.githubusercontent.com/98120553/176239055-599cda42-6ff0-4bc8-a6b2-55a10f72b92a.png">
 The following video shows an example of the application being used from the command line:
 https://user-images.githubusercontent.com/98120553/176236105-0122dc82-2429-44c5-b3ec-54862b1fb421.mp4
 
@@ -61,6 +65,7 @@ Design the database schema as shown in the following image:
 
 ![Database schema includes tables labeled “employee,” role,” and “department.”]
 
+<img width="878" alt="12-Employee-Tracker-Screenshot-4" src="https://user-images.githubusercontent.com/98120553/176239095-fb18fb6d-882f-478a-a3e4-8f2fe7d1a275.png">
 Schema Tables:
 
 * `department`
