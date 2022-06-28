@@ -8,7 +8,7 @@ This Employee Tracker SQL project has many practical implementations in the work
 
 
 ```md
-Our company is looking to build a database of emoployees that includes their contact information.
+Our company is looking to build a database of emoployees that includes their contact information.</br>
 I would like to manage the information related to the departments, roles, and employees.
 
 ```
@@ -31,13 +31,13 @@ Add an employee
 
 ## Demonstration
 
-The following video shows an example of the application being used from the command line:
+The following video shows an example of the application being used from the command line:</br>
 https://user-images.githubusercontent.com/98120553/176236105-0122dc82-2429-44c5-b3ec-54862b1fb421.mp4
 
 
 ## Installation
 
-In order to run this application in the back end user will need to install few packages.
+In order to run this application in the back end user will need to install few packages.</br>
 [MySQL2 package]</br>
 [Inquirer package]</br>
 [console.table package]</br>
@@ -64,26 +64,26 @@ Source seeds and schema data type command in the terminal:</br>
 
 Design the database schema as shown in the following image:</br>
 
-Database schema includes tables labeled “employee,” role,” and “department."
+Database schema includes tables labeled “employee,” role,” and “department."</br>
 
 
-Schema Tables:
+Schema Tables:</br>
 
 
 <img width="1254" alt="12 Employee Tracker Screenshot-2" src="https://user-images.githubusercontent.com/98120553/176239055-599cda42-6ff0-4bc8-a6b2-55a10f72b92a.png">
-* `department`
-  * `id`: `INT PRIMARY KEY`
-  * `name`: `VARCHAR(30)` to hold department name
-* `role`
-  * `id`: `INT PRIMARY KEY`
-  * `title`: `VARCHAR(30)` to hold role title
-  * `salary`: `DECIMAL` to hold role salary
-  * `department_id`: `INT` to hold reference to department role belongs to
-* `employee`
-  * `id`: `INT PRIMARY KEY`
-  * `first_name`: `VARCHAR(30)` to hold employee first name
-  * `last_name`: `VARCHAR(30)` to hold employee last name
-  * `role_id`: `INT` to hold reference to employee role
+* `department`</br>
+  * `id`: `INT PRIMARY KEY`</br>
+  * `name`: `VARCHAR(30)` to hold department name</br>
+* `role`</br>
+  * `id`: `INT PRIMARY KEY`</br>
+  * `title`: `VARCHAR(30)` to hold role title</br>
+  * `salary`: `DECIMAL` to hold role salary</br>
+  * `department_id`: `INT` to hold reference to department role belongs to</br>
+* `employee`</br>
+  * `id`: `INT PRIMARY KEY`</br>
+  * `first_name`: `VARCHAR(30)` to hold employee first name</br>
+  * `last_name`: `VARCHAR(30)` to hold employee last name</br>
+  * `role_id`: `INT` to hold reference to employee role</br>
   * `manager_id`: `INT` to hold reference to another employee that is the manager of the current employee (`null` if the employee has no manager)
 
 
